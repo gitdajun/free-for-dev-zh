@@ -1,139 +1,81 @@
-# free-for.dev 中文干净整理版
+# free-for.dev 完整干净整理版
 
-> 开发者免费资源清单 —— 真实长期免费套餐（不是短期试用）
+> 开发者免费资源完整清单 —— 真实长期免费套餐（不是短期试用）
 
-本仓库基于 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 进行干净排版与中文引导，方便中文开发者快速查找。
+本仓库基于 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 完整内容重新排版，所有服务链接和免费额度均保留，结构更干净易读。
 
 - **官方网站**：https://free-for.dev/
 - **原项目**：https://github.com/ripienaar/free-for-dev （1600+ 贡献者）
-- **收录原则**：仅 as-a-Service，必须有真实免费额度（至少 1 年或永久）
+- **收录原则**：仅 as-a-Service，必须有真实免费额度（至少 1 年或永久），不收录自托管软件
 
 ---
 
-## 目录
+## 目录（共 57 个分类）
 
-- [主流云厂商永久免费额度](#主流云厂商永久免费额度)
-- [云管理与部署](#云管理与部署)
-- [数据库与 BaaS](#数据库与-baas)
-- [CDN / 防护 / DNS](#cdn--防护--dns)
-- [CI/CD 与代码仓库](#cicd-与代码仓库)
-- [监控 / 日志 / 分析](#监控--日志--分析)
-- [AI / 机器学习](#ai--机器学习)
-- [托管与 PaaS](#托管与-paas)
-- [邮件 / 表单 / 其他工具](#邮件--表单--其他工具)
-- [完整列表说明](#完整列表说明)
-
----
-
-## 主流云厂商永久免费额度
-
-### Google Cloud Platform
-- App Engine、Cloud Run、Cloud Functions、Firestore、BigQuery、Cloud Storage 等均有永久免费额度
-- 详见：https://cloud.google.com/free
-
-### Amazon Web Services (AWS)
-- Lambda、DynamoDB、S3、CloudFront、SNS、SQS 等 Always Free
-- 详见：https://aws.amazon.com/free/
-
-### Microsoft Azure
-- App Service、Functions、Cosmos DB、Static Web Apps、Azure DevOps 等
-- 详见：https://azure.microsoft.com/free/
-
-### Oracle Cloud
-- 2 个 AMD VM + 2 个 Arm Ampere A1 核心（12GB 内存）
-- 200GB 块存储、10GB 对象存储、10TB 出站流量等 Always Free
-- 详见：https://www.oracle.com/cloud/free/
-
-### Cloudflare
-- 无限域名 DNS、CDN、SSL、Workers（10万请求/天）、R2（10GB）、Pages、D1 等
-- 非常推荐的免费套餐
-
-### IBM Cloud / Zoho
-- 均有多个永久免费服务
-
----
-
-## 云管理与部署
-
-- **Cloud 66** — 个人项目免费（1 部署服务器 + 1 静态站点）
-- **deployment.io** — 单用户无限静态站/服务部署，每月 10 次 Job
-- **Brainboard** — 可视化云基础设施协作
-
----
-
-## 数据库与 BaaS
-
-- **Supabase** — 开源 Firebase 替代，Postgres + 实时 + Auth + Storage（有免费额度）
-- **PlanetScale** — Serverless MySQL
-- **MongoDB Atlas** — 512MB 免费
-- **Firebase** — Google 移动/Web 后端
-- **Appwrite / PocketBase** 等也有免费方案
-
----
-
-## CDN / 防护 / DNS
-
-- **Cloudflare**（强烈推荐）
-- **BunnyCDN / Fastly** 等有免费或试用额度
-- 免费 DNS：Cloudflare、Hurricane Electric、NS1 等
+- [Major Cloud Providers](docs/01-major-cloud-providers.md)
+- [Cloud management solutions](docs/02-cloud-management-solutions.md)
+- [Source Code Repos](docs/03-source-code-repos.md)
+- [APIs, Data, and ML](docs/04-apis-data-and-ml.md)
+- [Artifact Repos](docs/05-artifact-repos.md)
+- [Tools for Teams and Collaboration](docs/06-tools-for-teams-and-collaboration.md)
+- [CMS](docs/07-cms.md)
+- [Code Generation](docs/08-code-generation.md)
+- [Code Quality](docs/09-code-quality.md)
+- [Code Search and Browsing](docs/10-code-search-and-browsing.md)
+- [CI and CD](docs/11-ci-and-cd.md)
+- [Testing](docs/12-testing.md)
+- [Security and PKI](docs/13-security-and-pki.md)
+- [Authentication, Authorization, and User Management](docs/14-authentication-authorization-and-user-management.md)
+- [Mobile App Distribution and Feedback](docs/15-mobile-app-distribution-and-feedback.md)
+- [Management System](docs/16-management-system.md)
+- [Messaging and Streaming](docs/17-messaging-and-streaming.md)
+- [Log Management](docs/18-log-management.md)
+- [Translation Management](docs/19-translation-management.md)
+- [Monitoring](docs/20-monitoring.md)
+- [Crash and Exception Handling](docs/21-crash-and-exception-handling.md)
+- [Search](docs/22-search.md)
+- [Education and Career Development](docs/23-education-and-career-development.md)
+- [Email](docs/24-email.md)
+- [Feature Toggles Management Platforms](docs/25-feature-toggles-management-platforms.md)
+- [Font](docs/26-font.md)
+- [Forms](docs/27-forms.md)
+- [Generative AI](docs/28-generative-ai.md)
+- [CDN and Protection](docs/29-cdn-and-protection.md)
+- [PaaS](docs/30-paas.md)
+- [BaaS](docs/31-baas.md)
+- [Low-code Platform](docs/32-low-code-platform.md)
+- [Web Hosting](docs/33-web-hosting.md)
+- [DNS](docs/34-dns.md)
+- [Domain](docs/35-domain.md)
+- [IaaS](docs/36-iaas.md)
+- [Managed Data Services](docs/37-managed-data-services.md)
+- [Tunneling, WebRTC, Web Socket Servers and Other Routers](docs/38-tunneling-webrtc-web-socket-servers-and-other-rout.md)
+- [Issue Tracking and Project Management](docs/39-issue-tracking-and-project-management.md)
+- [Storage and Media Processing](docs/40-storage-and-media-processing.md)
+- [Design and UI](docs/41-design-and-ui.md)
+- [Data Visualization on Maps](docs/42-data-visualization-on-maps.md)
+- [Package Build System](docs/43-package-build-system.md)
+- [IDE and Code Editing](docs/44-ide-and-code-editing.md)
+- [Analytics, Events and Statistics](docs/45-analytics-events-and-statistics.md)
+- [Visitor Session Recording](docs/46-visitor-session-recording.md)
+- [International Mobile Number Verification API and SDK](docs/47-international-mobile-number-verification-api-and-s.md)
+- [Payment and Billing Integration](docs/48-payment-and-billing-integration.md)
+- [Docker Related](docs/49-docker-related.md)
+- [Dev Blogging Sites](docs/50-dev-blogging-sites.md)
+- [Commenting Platforms](docs/51-commenting-platforms.md)
+- [Screenshot APIs](docs/52-screenshot-apis.md)
+- [Flutter Related and Building IOS Apps without Mac](docs/53-flutter-related-and-building-ios-apps-without-mac.md)
+- [Privacy Management](docs/54-privacy-management.md)
+- [Miscellaneous](docs/55-miscellaneous.md)
+- [Remote Desktop Tools](docs/56-remote-desktop-tools.md)
+- [Other Free Resources](docs/57-other-free-resources.md)
 
 ---
 
-## CI/CD 与代码仓库
+## 使用说明
 
-- **GitHub** — 无限公开/私有仓库 + Actions
-- **GitLab.com** — 5 协作者内免费
-- **Bitbucket** — 5 用户免费
-- **Codeberg** — 免费开源友好
-- CI：GitHub Actions、GitLab CI、CircleCI 免费额度、Travis 等
+1. 点击上方目录即可跳转到对应分类的完整列表（含所有链接和免费额度说明）
+2. 每个分类页面底部有「返回主页」链接
+3. 推荐用 Ctrl+F / Cmd+F 在分类页内搜索具体服务名
 
----
-
-## 监控 / 日志 / 分析
-
-- **Grafana Cloud**、**Datadog**、**New Relic**、**Sentry** 等均有免费套餐
-- **UptimeRobot**、**Better Uptime** 等监控工具
-- 日志：Logtail、Papertrail 等免费额度
-
----
-
-## AI / 机器学习
-
-- **Google AI Studio / Gemini** 免费额度
-- **Hugging Face**、**Groq**、**Together.ai**、**OpenRouter** 等有免费/低价调用
-- **Weights & Biases** 个人项目免费
-- **Kaggle / Colab** 免费算力
-
----
-
-## 托管与 PaaS
-
-- **Vercel / Netlify / Cloudflare Pages** — 静态与全栈免费额度极佳
-- **Railway / Render / Fly.io** — 有免费或试用额度
-- **GitHub Pages / GitLab Pages**
-
----
-
-## 邮件 / 表单 / 其他工具
-
-- 邮件发送：Resend、Mailgun、SendGrid、Amazon SES 等有免费额度
-- 表单：Formspree、Tally、Google Forms
-- 其他：大量 API、截图、翻译、协作工具等
-
----
-
-## 完整列表说明
-
-原项目包含 **50+ 分类、数百个服务**，详细到每个服务的具体免费额度限制。
-
-本仓库目前提供**干净中文引导 + 核心分类速览**。
-
-如需**完整英文原版干净排版**或**完整中文翻译版**，请回复告诉我，我可以立即把完整 1700+ 行内容推送到本仓库。
-
----
-
-**维护说明**
-- 原项目持续更新，建议定期关注上游
-- 本仓库仅做排版与中文友好整理，不修改原项目收录标准
-
-感谢 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) 的所有贡献者！
+感谢原项目所有贡献者！
